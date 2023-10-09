@@ -1,0 +1,59 @@
+.link-green
+{
+    color: #009349 !important;
+}
+
+.carousel-item
+{
+    filter:brightness(0.3);
+}
+
+.titulo
+{
+    text-align: center;
+}
+
+.subrayado
+{
+    text-decoration: underline;
+}
+
+.form-text
+{
+    text-align: center;
+    padding: 1px;
+}
+
+.col-form
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.size
+{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box 1px;
+    width: 412px;
+}
+
+.imput-nombre
+{
+    position: relative;
+    left: 208px
+}
+
+.imput-apellido
+{
+    position: relative;
+    left: 5px;
+}
+
+.footer
+{
+    background-color: #1C3A49;
+    text-decoration: none;
+    color: white;
+}
