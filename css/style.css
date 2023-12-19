@@ -1,76 +1,165 @@
-.link-green
+* 
 {
-    color: #009349 !important;
+    margin: 0px;
+    padding: 0px;
 }
 
-.carousel-item
+
+.color-fondo-gris 
 {
-    filter:brightness(0.3);
+    background-color: #343a40 !important;
 }
 
-.titulo
+.links-menu-head 
 {
-    text-align: center;
-}
-
-.subrayado
-{
-    text-decoration: underline;
-}
-
-.form-text
-{
-    text-align: center;
-    padding: 1px;
-}
-
-.col-form
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.size
-{
-    display: block;
-    padding: 10px;
-    margin: 10px;
-    box-sizing: border-box 1px;
-    width: 412px;
-}
-
-.imput-nombre
-{
-    position: relative;
-    left: 208px
-}
-
-.imput-apellido
-{
-    position: relative;
-    left: 5px;
-}
-
-.footer
-{
-    background-color: #1C3A49;
     text-decoration: none;
+    color: #9b9ba3;
+    font-size: 20px;
+}
+
+.links-menu-head:hover,
+a{
     color: white;
 }
 
 
-.DescuentoEstudiante{
+
+.logo 
+{
+    text-decoration: none;
+    margin-left: 100px;
+}
+
+.bg-verde 
+{
+    background-color: #96c93e !important;
+}
+
+.color-plata 
+{
+    color: #9b9ba3;
+}
+
+.color-verde 
+{
+    color: #28a645;
+}
+
+.color-blanco 
+{
+    color: white !important;
+}
+
+.Primer-carrusel 
+{
+    background-color: #000000;
+}
+
+
+.texto 
+{
+    width: auto;
+    top: 440px;
+    left: 70px;
+    font-size: 25px;
+    color: white;
+    margin-right: 250px;
+    margin-left: 750px;
+}
+
+
+.boton-tamaño 
+{
+    font-size: 20px !important;
+}
+
+.fnd
+{
+    background-color: rgba(163, 163, 163, 0.574) !important;
+    border-radius: 10px !important;
+    
+}
+
+.espacio-texto
+{
+    margin-right: 150px !important;
+}
+
+
+.espacio-botones
+{
+    margin-top: 10px;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    font-size: 13px !important;
+}
+
+
+.Playa 
+{
+    margin-top: 25px;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-bottom: 25px;
+}
+
+.espacio 
+{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+
+
+.linea-punteada 
+{
+    text-decoration: 1px rgb(0, 0, 0) underline dotted;
+
+}
+
+
+.pie 
+{
+    background-image: linear-gradient(to right, #0b1c25, #1d5271);
+    padding: 50px;
+}
+
+.links-menu-pie 
+{
+    text-decoration: none;
+    color: white;
+}
+
+.links-menu-pie>* 
+{
+    padding: 10px;
+}
+
+.links-menu-pie-hover:hover 
+{
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+
+}
+
+
+.DescuentoEstudiante
+{
     border: 1px solid #007bff;
 }
-
-.DescuentoTrainee{
+.DescuentoTrainee
+{
     border: 1px solid #17a2b8;
 }
-
-.DescuentoJunior{
+.DescuentoJunior
+{
     border: 1px solid #ffc107;
 }
 
-.alertaPaga{
+.alertaPaga
+{
     color: #b1d5fd ;
 }
